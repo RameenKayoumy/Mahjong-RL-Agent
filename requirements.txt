@@ -1,1 +1,2 @@
-# Add dependencies as the Mahjong environment and training code are implemented.
+jax
+mahjax==0.3.3
