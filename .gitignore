@@ -1,16 +1,48 @@
+# Python
 __pycache__/
 *.py[cod]
 .pytest_cache/
+
+# Virtual environments
 .venv/
+venv/
+
+# IDE files
 .idea/
-.env
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local datasets
 /data/*
 !/data/.gitkeep
+!/data/README.md
+
+# Saved models
 /models/*
 !/models/.gitkeep
-/results/*
-!/results/.gitkeep
+!/models/README.md
+
+# Training logs
+/results/raw/
+runs/
+wandb/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Environment variables
+.env
+
+# LaTeX build outputs
 /report/*.aux
 /report/*.log
 /report/*.out
 /report/*.pdf
+
+# Operating system
+.DS_Store
+Thumbs.db
